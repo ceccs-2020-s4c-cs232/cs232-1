@@ -1,0 +1,94 @@
+Script started on Monday 27 January 2020 09:10:17 AM IST
+]0;student@ceclab2-H110M-S2: ~/ceccs18c45/cs232/2701[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c45/cs232/2701[00m$ ls
+work.txt
+]0;student@ceclab2-H110M-S2: ~/ceccs18c45/cs232/2701[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c45/cs232/2701[00m$ ls -l
+total 0
+-rw-rw-r-- 1 student student 0 Jan 27 09:10 work.txt
+]0;student@ceclab2-H110M-S2: ~/ceccs18c45/cs232/2701[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c45/cs232/2701[00m$ ls -lt
+total 0
+-rw-rw-r-- 1 student student 0 Jan 27 09:10 work.txt
+]0;student@ceclab2-H110M-S2: ~/ceccs18c45/cs232/2701[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c45/cs232/2701[00m$ ls -/ltr
+ls: invalid option -- '/'
+Try 'ls --help' for more information.
+]0;student@ceclab2-H110M-S2: ~/ceccs18c45/cs232/2701[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c45/cs232/2701[00m$ alias ll='ls -l'
+]0;student@ceclab2-H110M-S2: ~/ceccs18c45/cs232/2701[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c45/cs232/2701[00m$ ll
+total 0
+-rw-rw-r-- 1 student student 0 Jan 27 09:10 work.txt
+]0;student@ceclab2-H110M-S2: ~/ceccs18c45/cs232/2701[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c45/cs232/2701[00m$ unalias ll
+]0;student@ceclab2-H110M-S2: ~/ceccs18c45/cs232/2701[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c45/cs232/2701[00m$ ll
+ll: command not found
+]0;student@ceclab2-H110M-S2: ~/ceccs18c45/cs232/2701[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c45/cs232/2701[00m$ cat[K[K[Kpwd
+/home/student/ceccs18c45/cs232/2701
+]0;student@ceclab2-H110M-S2: ~/ceccs18c45/cs232/2701[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c45/cs232/2701[00m$ cat abc.txt
+cat: abc.txt: No such file or directory
+]0;student@ceclab2-H110M-S2: ~/ceccs18c45/cs232/2701[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c45/cs232/2701[00m$ cat >abc.txt
+12
+13
+41
+51
+]0;student@ceclab2-H110M-S2: ~/ceccs18c45/cs232/2701[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c45/cs232/2701[00m$ sory[Kt -2 abc.txt
+sort: invalid option -- '2'
+Try 'sort --help' for more information.
+]0;student@ceclab2-H110M-S2: ~/ceccs18c45/cs232/2701[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c45/cs232/2701[00m$ sort -[K[K[K[K[K[Kcat >aa[K[Kaa.txt
+32
+52
+35
+]0;student@ceclab2-H110M-S2: ~/ceccs18c45/cs232/2701[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c45/cs232/2701[00m$ past [Ke abc.txt aa.txt
+12	32
+13	52
+41	35
+51	
+]0;student@ceclab2-H110M-S2: ~/ceccs18c45/cs232/2701[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c45/cs232/2701[00m$ grep 1 abc[K[K[K[K[K[K "1".[K abc.txt
+[01;31m[K1[m[K2
+[01;31m[K1[m[K3
+4[01;31m[K1[m[K
+5[01;31m[K1[m[K
+]0;student@ceclab2-H110M-S2: ~/ceccs18c45/cs232/2701[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c45/cs232/2701[00m$ rm abc.txt
+]0;student@ceclab2-H110M-S2: ~/ceccs18c45/cs232/2701[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c45/cs232/2701[00m$ ls
+aa.txt  work.txt
+]0;student@ceclab2-H110M-S2: ~/ceccs18c45/cs232/2701[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c45/cs232/2701[00m$ mkdir fol
+]0;student@ceclab2-H110M-S2: ~/ceccs18c45/cs232/2701[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c45/cs232/2701[00m$ ls
+aa.txt  [0m[01;34mfol[0m  work.txt
+]0;student@ceclab2-H110M-S2: ~/ceccs18c45/cs232/2701[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c45/cs232/2701[00m$ sort -n abc.txt
+sort: cannot read: abc.txt: No such file or directory
+]0;student@ceclab2-H110M-S2: ~/ceccs18c45/cs232/2701[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c45/cs232/2701[00m$ sort aa.t[K[K[K[K-n aa.txt
+32
+35
+52
+]0;student@ceclab2-H110M-S2: ~/ceccs18c45/cs232/2701[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c45/cs232/2701[00m$ cutr[K -c aa.txt[C aa.txt1 aa.txt[C[C[C[C[C[C[C
+3
+5
+3
+]0;student@ceclab2-H110M-S2: ~/ceccs18c45/cs232/2701[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c45/cs232/2701[00m$ cat abc.tc[Kxt
+cat: abc.txt: No such file or directory
+]0;student@ceclab2-H110M-S2: ~/ceccs18c45/cs232/2701[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c45/cs232/2701[00m$ cat >abc.txt
+65
+83
+15
+]0;student@ceclab2-H110M-S2: ~/ceccs18c45/cs232/2701[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c45/cs232/2701[00m$ paste aa.txt abc.txt
+32	65
+52	83
+35	15
+]0;student@ceclab2-H110M-S2: ~/ceccs18c45/cs232/2701[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c45/cs232/2701[00m$ whoami
+student
+]0;student@ceclab2-H110M-S2: ~/ceccs18c45/cs232/2701[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c45/cs232/2701[00m$ who
+student  tty7         2020-01-27 08:52 (:0)
+]0;student@ceclab2-H110M-S2: ~/ceccs18c45/cs232/2701[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c45/cs232/2701[00m$ jp[Koin r.abc.txt r.aa.txt
+join: r.abc.txt: No such file or directory
+]0;student@ceclab2-H110M-S2: ~/ceccs18c45/cs232/2701[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c45/cs232/2701[00m$ join join -1 2 -2 3 abc.txt aa .txt
+join: extra operand 'aa.txt'
+Try 'join --help' for more information.
+]0;student@ceclab2-H110M-S2: ~/ceccs18c45/cs232/2701[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c45/cs232/2701[00m$ join -1 2 -2 3 abc.txt aa.txt
+ 65 32
+ 65 52
+ 65 35
+ 83 32
+ 83 52
+ 83 35
+ 15 32
+ 15 52
+ 15 35
+]0;student@ceclab2-H110M-S2: ~/ceccs18c45/cs232/2701[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c45/cs232/2701[00m$ exit
+exit
+
+Script done on Monday 27 January 2020 09:35:29 AM IST
