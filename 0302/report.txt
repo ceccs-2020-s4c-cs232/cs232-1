@@ -1,0 +1,94 @@
+CEC CS 18 C45
+Parvathy Santhosh
+--------------------------------
+#1: ssh,rsync,scp etc
+---------------------------------
+Command/Shell script/Program name
+
+---------------------------------
+	1.ssh 
+	2.scp
+	3.rsync
+
+Input: (If relevant)
+---------------
+
+ssh cs18c45@192.168.0.30
+
+scp aa.txt cs18c45@192.168.0.30:0302
+
+rsync -avh 0302/ sample/
+
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+
+        # ssh cs18c47@192.168.0.30, is used to open a secured connection to remote device
+	
+	# rsync -av 0302/ sample/, is used to sync the files across 0302/ and sample/ 
+	
+	# scp aa.txt cs18c45@192.168.0.30:0302, this is used to upload aa.txt to 0302/ in the host 192.168.0.30
+
+-------------------
+Remarks if any:
+
+ 
+
+
+
+-------------------------------------
+-------------------------------------
+#2:ftp usage
+
+INPUT:
+
+        sftp cs18c45@192.168.0.30
+	put pqt.txt
+	lcd ..
+	lpwd
+	rm pwr.txt
+	quit
+OUTPUT:
+
+	# sftp cs18c44@192.168.0.30, connect to host 192.168.0.30 through sftp
+
+	# put pqr.txt, upload pqr.txt
+
+	# lcd .., change local directory 
+
+	# lpwd, show local present working directory
+
+	# rm pqr.txt, remove pqr.txt from host
+
+	# quit, quit current ftp session
+
+
+#3:Networking Task
+
+INPUT:
+	ifconfig -a
+	route -n
+	route add default gw 192.168.0.20
+	ping 192.168.0.1
+	cat /etc/resolv.conf
+	echo "nameserver 1.1.1.1" >> resolv.conf
+	
+
+--------------------------------
+Output: 
+
+	# ifconfig -a ,displays all available network interfaces
+	
+	# route -n ,displays kernal routing table
+#ping 192.168.0.1 ,assess the time it takes to send and receive a response from the network.
+	
+	# route add, is used add a new route to the table,
+	# route add default gw 192.168.0.2, a default gateway in this case
+
+	# echo "nameserver 1.1.1.1" >> /etc/resolv.conf ,to add 1.1.1.1 (1.1.1.1 is the DNS of Cloudflare) to system domain resolver configuration
+
+-------------------
+	
+
+
+
+

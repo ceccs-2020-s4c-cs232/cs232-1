@@ -1,0 +1,341 @@
+Script started on Monday 03 February 2020 09:07:03 AM IST
+]0;student@ceclab2-H110M-S2: ~/ceccs18c45/cs232/0302[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c45/cs232/0302[00m$ ssh cs18c45@192.169[K8.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c45@192.168.0.30's password: 
+Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
+
+ * Website:  http://elementary.io/
+
+402 packages can be updated.
+0 updates are security updates.
+
+$ lsls
+lslskjjlllllll    ls-sh: 1: lsls: not found
+$ ls
+-sh: 2: lslskjjllllsls: not found
+$ cd /
+$ ls
+bin    core  home	 lib32	     media  proc  sbin	sys  var
+boot   dev   initrd.img  lib64	     mnt    root  snap	tmp  vmlinuz
+cdrom  etc   lib	 lost+found  opt    run   srv	usr
+$ qui   exit
+Connection to 192.168.0.30 closed.
+]0;student@ceclab2-H110M-S2: ~/ceccs18c45/cs232/0302[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c45/cs232/0302[00m$ scp[K[K[Kcat >aaa[K.txt
+paru
+malu
+s rinu
+]0;student@ceclab2-H110M-S2: ~/ceccs18c45/cs232/0302[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c45/cs232/0302[00m$ scp aa.txt cs18c45@192.18[K68.0.3 0:0303[K2
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c45@192.168.0.30's password: 
+aa.txt                                          0%    0     0.0KB/s   --:-- ETAaa.txt                                        100%   15     0.0KB/s   00:00    
+]0;student@ceclab2-H110M-S2: ~/ceccs18c45/cs232/0302[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c45/cs232/0302[00m$ rsu[Kync -av 0304[K2/aa[K[Ktest[K[K[K[Kaa[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kmkdir sample
+]0;student@ceclab2-H110M-S2: ~/ceccs18c45/cs232/0302[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c45/cs232/0302[00m$ cd sample
+]0;student@ceclab2-H110M-S2: ~/ceccs18c45/cs232/0302/sample[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c45/cs232/0302/sample[00m$ cat >abc.txt
+rinu   eenu
+parvathy
+malavika
+]0;student@ceclab2-H110M-S2: ~/ceccs18c45/cs232/0302/sample[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c45/cs232/0302/sample[00m$ rsync -av 0303/sample sample
+sending incremental file list
+rsync: change_dir "/home/student/ceccs18c45/cs232/0302/sample//0303" failed: No such file or directory (2)
+
+sent 20 bytes  received 12 bytes  64.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1183) [sender=3.1.1]
+]0;student@ceclab2-H110M-S2: ~/ceccs18c45/cs232/0302/sample[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c45/cs232/0302/sample[00m$ rsync -av 0303[K2/sample/
+sending incremental file list
+rsync: change_dir "/home/student/ceccs18c45/cs232/0302/sample//0302/sample" failed: No such file or directory (2)
+
+sent 20 bytes  received 12 bytes  64.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1183) [sender=3.1.1]
+]0;student@ceclab2-H110M-S2: ~/ceccs18c45/cs232/0302/sample[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c45/cs232/0302/sample[00m$ rsync -av[K 0302/sample
+rsync: change_dir "/home/student/ceccs18c45/cs232/0302/sample//0302" failed: No such file or directory (2)
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1183) [sender=3.1.1]
+]0;student@ceclab2-H110M-S2: ~/ceccs18c45/cs232/0302/sample[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c45/cs232/0302/sample[00m$ rsync -a 0302/v 0302/[C[C[C[C[C[C [K[K sample
+sending incremental file list
+rsync: link_stat "/home/student/ceccs18c45/cs232/0302/sample/0302" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1183) [sender=3.1.1]
+]0;student@ceclab2-H110M-S2: ~/ceccs18c45/cs232/0302/sample[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c45/cs232/0302/sample[00m$ rsync -a 0302 sample
+rsync: link_stat "/home/student/ceccs18c45/cs232/0302/sample/0302" failed: No such file or directory (2)
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1183) [sender=3.1.1]
+]0;student@ceclab2-H110M-S2: ~/ceccs18c45/cs232/0302/sample[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c45/cs232/0302/sample[00m$ rsync -a [K
+rsync  version 3.1.1  protocol version 31
+Copyright (C) 1996-2014 by Andrew Tridgell, Wayne Davison, and others.
+Web site: http://rsync.samba.org/
+Capabilities:
+    64-bit files, 64-bit inums, 64-bit timestamps, 64-bit long ints,
+    socketpairs, hardlinks, symlinks, IPv6, batchfiles, inplace,
+    append, ACLs, xattrs, iconv, symtimes, prealloc
+
+rsync comes with ABSOLUTELY NO WARRANTY.  This is free software, and you
+are welcome to redistribute it under certain conditions.  See the GNU
+General Public Licence for details.
+
+rsync is a file transfer program capable of efficient remote update
+via a fast differencing algorithm.
+
+Usage: rsync [OPTION]... SRC [SRC]... DEST
+  or   rsync [OPTION]... SRC [SRC]... [USER@]HOST:DEST
+  or   rsync [OPTION]... SRC [SRC]... [USER@]HOST::DEST
+  or   rsync [OPTION]... SRC [SRC]... rsync://[USER@]HOST[:PORT]/DEST
+  or   rsync [OPTION]... [USER@]HOST:SRC [DEST]
+  or   rsync [OPTION]... [USER@]HOST::SRC [DEST]
+  or   rsync [OPTION]... rsync://[USER@]HOST[:PORT]/SRC [DEST]
+The ':' usages connect via remote shell, while '::' & 'rsync://' usages connect
+to an rsync daemon, and require SRC or DEST to start with a module name.
+
+Options
+ -v, --verbose               increase verbosity
+     --info=FLAGS            fine-grained informational verbosity
+     --debug=FLAGS           fine-grained debug verbosity
+     --msgs2stderr           special output handling for debugging
+ -q, --quiet                 suppress non-error messages
+     --no-motd               suppress daemon-mode MOTD (see manpage caveat)
+ -c, --checksum              skip based on checksum, not mod-time & size
+ -a, --archive               archive mode; equals -rlptgoD (no -H,-A,-X)
+     --no-OPTION             turn off an implied OPTION (e.g. --no-D)
+ -r, --recursive             recurse into directories
+ -R, --relative              use relative path names
+     --no-implied-dirs       don't send implied dirs with --relative
+ -b, --backup                make backups (see --suffix & --backup-dir)
+     --backup-dir=DIR        make backups into hierarchy based in DIR
+     --suffix=SUFFIX         set backup suffix (default ~ w/o --backup-dir)
+ -u, --update                skip files that are newer on the receiver
+     --inplace               update destination files in-place (SEE MAN PAGE)
+     --append                append data onto shorter files
+     --append-verify         like --append, but with old data in file checksum
+ -d, --dirs                  transfer directories without recursing
+ -l, --links                 copy symlinks as symlinks
+ -L, --copy-links            transform symlink into referent file/dir
+     --copy-unsafe-links     only "unsafe" symlinks are transformed
+     --safe-links            ignore symlinks that point outside the source tree
+     --munge-links           munge symlinks to make them safer (but unusable)
+ -k, --copy-dirlinks         transform symlink to a dir into referent dir
+ -K, --keep-dirlinks         treat symlinked dir on receiver as dir
+ -H, --hard-links            preserve hard links
+ -p, --perms                 preserve permissions
+ -E, --executability         preserve the file's executability
+     --chmod=CHMOD           affect file and/or directory permissions
+ -A, --acls                  preserve ACLs (implies --perms)
+ -X, --xattrs                preserve extended attributes
+ -o, --owner                 preserve owner (super-user only)
+ -g, --group                 preserve group
+     --devices               preserve device files (super-user only)
+     --specials              preserve special files
+ -D                          same as --devices --specials
+ -t, --times                 preserve modification times
+ -O, --omit-dir-times        omit directories from --times
+ -J, --omit-link-times       omit symlinks from --times
+     --super                 receiver attempts super-user activities
+     --fake-super            store/recover privileged attrs using xattrs
+ -S, --sparse                handle sparse files efficiently
+     --preallocate           allocate dest files before writing them
+ -n, --dry-run               perform a trial run with no changes made
+ -W, --whole-file            copy files whole (without delta-xfer algorithm)
+ -x, --one-file-system       don't cross filesystem boundaries
+ -B, --block-size=SIZE       force a fixed checksum block-size
+ -e, --rsh=COMMAND           specify the remote shell to use
+     --rsync-path=PROGRAM    specify the rsync to run on the remote machine
+     --existing              skip creating new files on receiver
+     --ignore-existing       skip updating files that already exist on receiver
+     --remove-source-files   sender removes synchronized files (non-dirs)
+     --del                   an alias for --delete-during
+     --delete                delete extraneous files from destination dirs
+     --delete-before         receiver deletes before transfer, not during
+     --delete-during         receiver deletes during the transfer
+     --delete-delay          find deletions during, delete after
+     --delete-after          receiver deletes after transfer, not during
+     --delete-excluded       also delete excluded files from destination dirs
+     --ignore-missing-args   ignore missing source args without error
+     --delete-missing-args   delete missing source args from destination
+     --ignore-errors         delete even if there are I/O errors
+     --force                 force deletion of directories even if not empty
+     --max-delete=NUM        don't delete more than NUM files
+     --max-size=SIZE         don't transfer any file larger than SIZE
+     --min-size=SIZE         don't transfer any file smaller than SIZE
+     --partial               keep partially transferred files
+     --partial-dir=DIR       put a partially transferred file into DIR
+     --delay-updates         put all updated files into place at transfer's end
+ -m, --prune-empty-dirs      prune empty directory chains from the file-list
+     --numeric-ids           don't map uid/gid values by user/group name
+     --usermap=STRING        custom username mapping
+     --groupmap=STRING       custom groupname mapping
+     --chown=USER:GROUP      simple username/groupname mapping
+     --timeout=SECONDS       set I/O timeout in seconds
+     --contimeout=SECONDS    set daemon connection timeout in seconds
+ -I, --ignore-times          don't skip files that match in size and mod-time
+ -M, --remote-option=OPTION  send OPTION to the remote side only
+     --size-only             skip files that match in size
+     --modify-window=NUM     compare mod-times with reduced accuracy
+ -T, --temp-dir=DIR          create temporary files in directory DIR
+ -y, --fuzzy                 find similar file for basis if no dest file
+     --compare-dest=DIR      also compare destination files relative to DIR
+     --copy-dest=DIR         ... and include copies of unchanged files
+     --link-dest=DIR         hardlink to files in DIR when unchanged
+ -z, --compress              compress file data during the transfer
+     --compress-level=NUM    explicitly set compression level
+     --skip-compress=LIST    skip compressing files with a suffix in LIST
+ -C, --cvs-exclude           auto-ignore files the same way CVS does
+ -f, --filter=RULE           add a file-filtering RULE
+ -F                          same as --filter='dir-merge /.rsync-filter'
+                             repeated: --filter='- .rsync-filter'
+     --exclude=PATTERN       exclude files matching PATTERN
+     --exclude-from=FILE     read exclude patterns from FILE
+     --include=PATTERN       don't exclude files matching PATTERN
+     --include-from=FILE     read include patterns from FILE
+     --files-from=FILE       read list of source-file names from FILE
+ -0, --from0                 all *-from/filter files are delimited by 0s
+ -s, --protect-args          no space-splitting; only wildcard special-chars
+     --address=ADDRESS       bind address for outgoing socket to daemon
+     --port=PORT             specify double-colon alternate port number
+     --sockopts=OPTIONS      specify custom TCP options
+     --blocking-io           use blocking I/O for the remote shell
+     --stats                 give some file-transfer stats
+ -8, --8-bit-output          leave high-bit chars unescaped in output
+ -h, --human-readable        output numbers in a human-readable format
+     --progress              show progress during transfer
+ -P                          same as --partial --progress
+ -i, --itemize-changes       output a change-summary for all updates
+     --out-format=FORMAT     output updates using the specified FORMAT
+     --log-file=FILE         log what we're doing to the specified FILE
+     --log-file-format=FMT   log updates using the specified FMT
+     --password-file=FILE    read daemon-access password from FILE
+     --list-only             list the files instead of copying them
+     --bwlimit=RATE          limit socket I/O bandwidth
+     --outbuf=N|L|B          set output buffering to None, Line, or Block
+     --write-batch=FILE      write a batched update to FILE
+     --only-write-batch=FILE like --write-batch but w/o updating destination
+     --read-batch=FILE       read a batched update from FILE
+     --protocol=NUM          force an older protocol version to be used
+     --iconv=CONVERT_SPEC    request charset conversion of filenames
+     --checksum-seed=NUM     set block/file checksum seed (advanced)
+     --noatime               do not alter atime when opening source files
+ -4, --ipv4                  prefer IPv4
+ -6, --ipv6                  prefer IPv6
+     --version               print version number
+(-h) --help                  show this help (-h is --help only if used alone)
+
+Use "rsync --daemon --help" to see the daemon-mode command-line options.
+Please see the rsync(1) and rsyncd.conf(5) man pages for full documentation.
+See http://rsync.samba.org/ for updates, bug reports, and answers
+rsync error: syntax or usage error (code 1) at main.c(1640) [Receiver=3.1.1]
+]0;student@ceclab2-H110M-S2: ~/ceccs18c45/cs232/0302/sample[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c45/cs232/0302/sample[00m$ rsync -a 0302 sample[1@v[C[C[C[C[C[C[C[C[C[C[C[C[1P 0302/samplev 0302/sample/3/ sample2/sample/[2P 0302/samplev 0302 sample[1P[C[C[C[C[C[C[C[C[C[C[C[C[K[Krsync -a{s[K0302r[K[K[K[K[K[Kvhj[K 0302/ sample /
+sending incremental file list
+rsync: change_dir "/home/student/ceccs18c45/cs232/0302/sample//0302" failed: No such file or directory (2)
+created directory sample
+
+sent 20 bytes  received 41 bytes  122.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1183) [sender=3.1.1]
+]0;student@ceclab2-H110M-S2: ~/ceccs18c45/cs232/0302/sample[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c45/cs232/0302/sample[00m$ ls
+abc.txt  [0m[01;34msample[0m
+]0;student@ceclab2-H110M-S2: ~/ceccs18c45/cs232/0302/sample[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c45/cs232/0302/sample[00m$ cd 0302[K[K[K[K[K[K[Kcd ..
+]0;student@ceclab2-H110M-S2: ~/ceccs18c45/cs232/0302[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c45/cs232/0302[00m$ sftp cs12[K8c45@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c45@192.168.0.30's password: 
+Connected to 192.168.0.30.
+sftp> p[Kcat >abc.txt
+Invalid command.
+sftp> quit
+]0;student@ceclab2-H110M-S2: ~/ceccs18c45/cs232/0302[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c45/cs232/0302[00m$ cat >abc.txt[1P.txt[1P.txt[1P.txtp.txtq.txtr.txt[C[C[C[C
+ammu    123
+342
+125
+]0;student@ceclab2-H110M-S2: ~/ceccs18c45/cs232/0302[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c45/cs232/0302[00m$ sftp cs18c45@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c45@192.168.0.30's password: 
+Connected to 192.168.0.30.
+sftp> put pqr.txt
+Uploading pqr.txt to /home/cs18c45/pqr.txt
+pqr.txt                                         0%    0     0.0KB/s   --:-- ETApqr.txt                                       100%   12     0.0KB/s   00:00    
+sftp> lcd...
+Invalid command.
+sftp> lcd ..
+sftp> lpwd
+Local working directory: /home/student/ceccs18c45/cs232
+sftp> ls
+0302                cs232               examples.desktop    pqr.txt             
+sftp> rm pqr.txt
+Removing /home/cs18c45/pqr.txt
+sftp> ls
+0302                cs232               examples.desktop    
+sftp> quit
+]0;student@ceclab2-H110M-S2: ~/ceccs18c45/cs232/0302[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c45/cs232/0302[00m$ if [Kconfig -a
+enp1s0    Link encap:Ethernet  HWaddr e0:d5:5e:07:19:af  
+          inet addr:192.168.0.51  Bcast:192.168.0.255  Mask:255.255.255.0
+          inet6 addr: fe80::b9ed:42dd:bbc1:f306/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:113012 errors:0 dropped:24 overruns:0 frame:0
+          TX packets:4821 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:15669795 (15.6 MB)  TX bytes:549877 (549.8 KB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:23739 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:23739 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:1895925 (1.8 MB)  TX bytes:1895925 (1.8 MB)
+
+]0;student@ceclab2-H110M-S2: ~/ceccs18c45/cs232/0302[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c45/cs232/0302[00m$ route -n
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+0.0.0.0         192.168.0.2     0.0.0.0         UG    100    0        0 enp1s0
+169.254.0.0     0.0.0.0         255.255.0.0     U     1000   0        0 enp1s0
+192.168.0.0     0.0.0.0         255.255.255.0   U     100    0        0 enp1s0
+]0;student@ceclab2-H110M-S2: ~/ceccs18c45/cs232/0302[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c45/cs232/0302[00m$ route add default gw 192.169[K8.0 .20
+SIOCADDRT: Operation not permitted
+]0;student@ceclab2-H110M-S2: ~/ceccs18c45/cs232/0302[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c45/cs232/0302[00m$ ping 192.168.0.1
+PING 192.168.0.1 (192.168.0.1) 56(84) bytes of data.
+64 bytes from 192.168.0.1: icmp_seq=1 ttl=64 time=9.62 ms
+64 bytes from 192.168.0.1: icmp_seq=2 ttl=64 time=2.63 ms
+64 bytes from 192.168.0.1: icmp_seq=3 ttl=64 time=2.76 ms
+64 bytes from 192.168.0.1: icmp_seq=4 ttl=64 time=2.67 ms
+64 bytes from 192.168.0.1: icmp_seq=5 ttl=64 time=2.67 ms
+64 bytes from 192.168.0.1: icmp_seq=6 ttl=64 time=2.68 ms
+64 bytes from 192.168.0.1: icmp_seq=7 ttl=64 time=3.29 ms
+64 bytes from 192.168.0.1: icmp_seq=8 ttl=64 time=2.62 ms
+64 bytes from 192.168.0.1: icmp_seq=9 ttl=64 time=2.83 ms
+64 bytes from 192.168.0.1: icmp_seq=10 ttl=64 time=2.71 ms
+^C
+--- 192.168.0.1 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9015ms
+rtt min/avg/max/mdev = 2.626/3.451/9.621/2.065 ms
+]0;student@ceclab2-H110M-S2: ~/ceccs18c45/cs232/0302[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c45/cs232/0302[00m$ cat /etc/resolv.conf
+cat: /etc/resolv.conf: No such file or directory
+]0;student@ceclab2-H110M-S2: ~/ceccs18c45/cs232/0302[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c45/cs232/0302[00m$ cat /etc/resolve.conf
+cat: /etc/resolve.conf: No such file or directory
+]0;student@ceclab2-H110M-S2: ~/ceccs18c45/cs232/0302[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c45/cs232/0302[00m$ cat /etc/resolv.conf
+cat: /etc/resolv.conf: No such file or directory
+]0;student@ceclab2-H110M-S2: ~/ceccs18c45/cs232/0302[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c45/cs232/0302[00m$ cat /etc/resolv.conf
+cat: /etc/resolv.conf: No such file or directory
+]0;student@ceclab2-H110M-S2: ~/ceccs18c45/cs232/0302[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c45/cs232/0302[00m$ cat /etc/resolv.cx[Konf
+cat: /etc/resolv.conf: No such file or directory
+]0;student@ceclab2-H110M-S2: ~/ceccs18c45/cs232/0302[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c45/cs232/0302[00m$ echo "nameserver 1.1.1.1">>res olv.conf
+]0;student@ceclab2-H110M-S2: ~/ceccs18c45/cs232/0302[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c45/cs232/0302[00m$ ls
+aa.txt  pqr.txt  resolv.conf  [0m[01;34msample[0m  work.txt
+]0;student@ceclab2-H110M-S2: ~/ceccs18c45/cs232/0302[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c45/cs232/0302[00m$ exit
+exit
+
+Script done on Monday 03 February 2020 10:32:21 AM IST
