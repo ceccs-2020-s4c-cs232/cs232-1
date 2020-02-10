@@ -1,0 +1,33 @@
+CEC CS 18 C45
+Parvathy Santhosh
+
+--------------------------------
+#1: Sripting Task
+---------------------------------
+Command/Shell script/Program name
+---------------------------------
+
+script.sh
+
+Input: (If relevant)
+---------------
+
+#Download KTU S1 result and convert pdf to text file
+
+ pdftotext -layout result_CHN.pdf result_CHN.txt
+
+#Seperated the result of CS Students
+ 
+ grep "CHN18CS" result_CHN.txt > result_cs.txt
+
+#Calculated CGPA
+
+#Added name and roll number
+ 
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+
+#output filename: cgpa.txt
+
+
+
