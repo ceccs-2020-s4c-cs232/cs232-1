@@ -1,0 +1,13 @@
+Script started on Saturday 21 March 2020 09:23:05 PM IST
+]0;hai@hai-desktop: ~/Desktop/cs232/ceccs18c45/2103hai@hai-desktop:~/Desktop/cs232/ceccs18c45/2103$ exit[K[K[K[Kgedit o[Kprime.pl
+]0;hai@hai-desktop: ~/Desktop/cs232/ceccs18c45/2103hai@hai-desktop:~/Desktop/cs232/ceccs18c45/2103$ gedit prime.plexit[Kgedit palindrome.pl[1Pperl[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@gedit[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pperl[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@gedit[C[C[C[C[C[C[C[C[C[C[C[C[C[C[6Pperl prime.pl
+Enter the number
+42
+It is not a prime number]0;hai@hai-desktop: ~/Desktop/cs232/ceccs18c45/2103hai@hai-desktop:~/Desktop/cs232/ceccs18c45/2103$ gedit even.pl
+]0;hai@hai-desktop: ~/Desktop/cs232/ceccs18c45/2103hai@hai-desktop:~/Desktop/cs232/ceccs18c45/2103$ gedit even.pl[Keve\\[K[K[K[K[Kperl even.pl
+Enter a number
+3456
+It is even]0;hai@hai-desktop: ~/Desktop/cs232/ceccs18c45/2103hai@hai-desktop:~/Desktop/cs232/ceccs18c45/2103$ exit
+exit
+
+Script done on Saturday 21 March 2020 09:46:34 PM IST

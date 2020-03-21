@@ -1,0 +1,30 @@
+CEC CS 18C 45
+Parvathy Santhosh
+
+--------------------------------
+#1: t8(2)
+
+    Perl
+---------------------------------
+
+Program name
+---------------------------------
+
+
+	1.Check whether the number is prime or not
+
+	2.Check whether the number is odd or even
+
+
+--------------------------------
+Output:
+-------------------
+
+	1. Enter the number
+		42
+	   It is not a prime number
+
+	2. Enter a number
+		3456
+	   It is even
+----------------------------------
