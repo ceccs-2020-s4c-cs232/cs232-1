@@ -1,0 +1,28 @@
+CEC CS 18 C45   22-03-2020
+Parvathy Santhosh
+
+--------------------------------
+#1: t8(1)
+---------------------------------
+Command/Shell script/Program name: Package Management
+---------------------------------
+
+
+
+	sudo apt-get update #To update the local cache
+
+	sudo apt install synaptic #To install synaptic package
+
+	sudo apt-get remove synaptic #To remove synaptic package
+
+	sudo apt list > process.txt #To list out all the packages that has been installed
+
+--------------------------------
+
+Output:
+-------------------
+
+	process.txt #List of all the packages that have been installed
+
+
+---------------------------------
