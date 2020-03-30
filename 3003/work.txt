@@ -1,0 +1,56 @@
+Script started on 2020-03-30 13:17:56+0530
+]0;paru@paru-VirtualBox: ~/ceccs18c45/cs232/3003[01;32mparu@paru-VirtualBox[00m:[01;34m~/ceccs18c45/cs232/3003[00m$ sudo apt-get int[Kstall vsftpd
+[sudo] password for paru: 
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... 84%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+vsftpd is already the newest version (3.0.3-9build1).
+0 upgraded, 0 newly installed, 0 to remove and 96 not upgraded.
+]0;paru@paru-VirtualBox: ~/ceccs18c45/cs232/3003[01;32mparu@paru-VirtualBox[00m:[01;34m~/ceccs18c45/cs232/3003[00m$ sudo gedit /etc/b[Kvsftpd.conf
+
+** (gedit:4351): [1;33mWARNING[0m **: [34m13:19:52.591[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
+
+** (gedit:4351): [1;33mWARNING[0m **: [34m13:19:52.594[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:4351): [1;33mWARNING[0m **: [34m13:19:54.950[0m: Set document metadata failed: Setting attribute metadata::gedit-position not supported
+]0;paru@paru-VirtualBox: ~/ceccs18c45/cs232/3003[01;32mparu@paru-VirtualBox[00m:[01;34m~/ceccs18c45/cs232/3003[00m$ ftp localhost
+Connected to localhost.
+220 (vsFTPd 3.0.3)
+Name (localhost:paru): paru
+331 Please specify the password.
+Password:
+230 Login successful.
+Remote system type is UNIX.
+Using binary mode to transfer files.
+ftp> exit
+221 Goodbye.
+]0;paru@paru-VirtualBox: ~/ceccs18c45/cs232/3003[01;32mparu@paru-VirtualBox[00m:[01;34m~/ceccs18c45/cs232/3003[00m$ ip address
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host 
+       valid_lft forever preferred_lft forever
+2: enp0s3: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
+    link/ether 08:00:27:23:81:bd brd ff:ff:ff:ff:ff:ff
+    inet 10.0.2.15/24 brd 10.0.2.255 scope global dynamic noprefixroute enp0s3
+       valid_lft 84226sec preferred_lft 84226sec
+    inet6 fe80::62:dea5:55bd:5646/64 scope link noprefixroute 
+       valid_lft forever preferred_lft forever
+]0;paru@paru-VirtualBox: ~/ceccs18c45/cs232/3003[01;32mparu@paru-VirtualBox[00m:[01;34m~/ceccs18c45/cs232/3003[00m$ sudo apt g[K[K-get install apaa[Kche2
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... 84%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+apache2 is already the newest version (2.4.29-1ubuntu4.13).
+0 upgraded, 0 newly installed, 0 to remove and 96 not upgraded.
+]0;paru@paru-VirtualBox: ~/ceccs18c45/cs232/3003[01;32mparu@paru-VirtualBox[00m:[01;34m~/ceccs18c45/cs232/3003[00m$ sudo gedit /var.[K/www/html/indec[Kc[Kx.ht ml
+
+** (gedit:4402): [1;33mWARNING[0m **: [34m13:29:55.622[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
+
+** (gedit:4402): [1;33mWARNING[0m **: [34m13:29:55.624[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:4402): [1;33mWARNING[0m **: [34m13:29:57.918[0m: Set document metadata failed: Setting attribute metadata::gedit-position not supported
+]0;paru@paru-VirtualBox: ~/ceccs18c45/cs232/3003[01;32mparu@paru-VirtualBox[00m:[01;34m~/ceccs18c45/cs232/3003[00m$ exit
+exit
+
+Script done on 2020-03-30 13:36:03+0530
