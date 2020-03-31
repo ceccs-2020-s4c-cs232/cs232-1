@@ -1,0 +1,54 @@
+CEC CS 18 C45   31-03-2020
+Parvathy Santhosh
+
+--------------------------------
+#1: LAMP Stack (t8.3)
+---------------------------------
+
+
+Command/Shell script/Program name
+---------------------------------
+
+
+	sudo apt update  #To update list
+
+	sudo apt-get install apache2  #To install apache2
+
+	sudo service apache2 start  #To start apache2
+
+	sudo apt-get install mysql-server  #To install MySQL
+
+	sudo service mysql start  #To start MySQL
+
+	nano info.php  #To create PHP file info
+
+	nano index.php  #To create PHP file index 
+
+	sudo nano /var/www/html/info.php  #To test PHP processing on server
+
+
+Input:
+---------------
+
+	#php file
+
+	info.php
+	index.php
+
+--------------------------------
+
+
+Output:
+
+	info.png  #php version info at 15.0.2.15/info.php
+
+	index.png  #php page at 15.0.2.15
+
+
+
+-------------------
+Remarks if any:
+
+
+-------------------------------------
+
