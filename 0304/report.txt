@@ -1,0 +1,74 @@
+CEC CS 18 C45   03-02-2020
+Parvathy Santhosh
+
+--------------------------------
+#1: Shell Programming (S4)
+
+
+
+Command/Shell script/Program name
+------------------------------------------------------------------
+
+
+	sysconf1.sh  #Shell Script
+
+
+--------------------------------
+
+Output: 
+
+
+	1.png contains the screenshot of the shell script showing various system configurations like :
+	#Currently logged user and his login name
+
+	#Your current shell
+
+	#Your home directory
+
+	#Your operating system type
+
+	#Your current path setting
+
+	#Your current working directory
+
+	#Number of users currently logged in
+
+
+-------------------
+Remarks if any:
+-------------------------------------
+-------------------------------------
+
+
+
+
+
+#2:Shell Programming (S5)
+-------------------------------------
+
+
+
+Command/Shell script/Program name
+---------------------------------
+
+	
+	sysconf2.sh   #Shell Script used
+
+
+Output: 
+--------------------------
+
+	#OS and version, release number, kernel version
+	#All available shells
+	#Computer CPU information like processor type, speed etc
+	#Memory information
+	#Hard disk information like size of hard disk,cache memory,model,etc
+	#File system (Mounted)
+
+
+-------------------
+Remarks if any:
+-------------------------------------
+
+
+

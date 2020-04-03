@@ -1,0 +1,221 @@
+Script started on 2020-04-03 19:36:27+0530
+]0;paru@paru-VirtualBox: ~/ceccs18c45/cs232/0304[01;32mparu@paru-VirtualBox[00m:[01;34m~/ceccs18c45/cs232/0304[00m$ nano sysconf1.sh
+[?1049h[22;0;0t[1;28r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[26;34H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 2.9.3                     sysconf1.sh                               [1;78H(B[m[27d(B[0;7m^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify[28d(B[0;7m^X(B[m Exit[28;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Uncut Text  (B[0;7m^T(B[m To Linter[26d[3d[39;49m(B[m[?12l[?25h[?25l[1;70H(B[0;7mModified(B[m[3d[36m#[39m(B[m[?12l[?25h[?25l[36m![39m(B[m[?12l[?25h[?25l[36m/[39m(B[m[?12l[?25h[?25l[36mn[39m(B[m[?12l[?25h[?25l [?12l[?25h[?25l[36mb[39m(B[m[?12l[?25h[?25l[36ma[39m(B[m[?12l[?25h[?25l[36ms[39m(B[m[?12l[?25h[?25l[36mh[39m(B[m[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[36mi[39m(B[m[?12l[?25h[?25l[36mn[39m(B[m[?12l[?25h[?25l[36m/[39m(B[m[?12l[?25h[?25l[36mb[39m(B[m[?12l[?25h[?25l[36ma[39m(B[m[?12l[?25h[?25l[36ms[39m(B[m[?12l[?25h[?25l[36mh[39m(B[m[?12l[?25h[?25l[4d[?12l[?25h[?25le[?12l[?25h[?25lc[?12l[?25h[?25lh[?12l[?25h[?25l(B[0;1m[34mecho[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l -[26d[K[4;7H[?12l[?25h[?25l[32m-e[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l "[?12l[?25h[?25l[32m\[39m(B[m[?12l[?25h[?25ln[?12l[?25h[?25lC[?12l[?25h[?25lu[?12l[?25h[?25lr[?12l[?25h[?25lr[?12l[?25h[?25le[?12l[?25h[?25ln[?12l[?25h[?25lt[?12l[?25h[?25ll[?12l[?25h[?25ly[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l L[?12l[?25h[?25lo[?12l[?25h[?25lh[?12l[?25h[?25l [?12l[?25h[?25lg[?12l[?25h[?25lg[?12l[?25h[?25le[?12l[?25h[?25ld[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l U[?12l[?25h[?25ls[?12l[?25h[?25le[?12l[?25h[?25lr[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l [32m:[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l [32m$[39m(B[m[?12l[?25h[?25l(B[0;1m[31m$U[39m(B[m[?12l[?25h[?25l(B[0;1m[31mS[39m(B[m[?12l[?25h[?25l(B[0;1m[31mE[39m(B[m[?12l[?25h[?25l(B[0;1m[31mr[39m(B[m[?12l[?25h[?25l [?12l[?25h[?25l(B[0;1m[31mR[39m(B[m[?12l[?25h[?25l[32m\[39m(B[m[?12l[?25h[?25ln[?12l[?25h[?25l[4;9H(B[0;1m[33m"\nCurrently Logged User : $USER\n"[39m(B[m[?12l[?25h[?25l[5d[?12l[?25h[?25le[?12l[?25h[?25lc[?12l[?25h[?25lh[?12l[?25h[?25l(B[0;1m[34mecho[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l -[?12l[?25h[?25l[32m-e[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l "[?12l[?25h[?25l[32m\[39m(B[m[?12l[?25h[?25ln[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l [?12l[?25h[?25lc[?12l[?25h[?25lu[?12l[?25h[?25lr[?12l[?25h[?25lr[?12l[?25h[?25le[?12l[?25h[?25ln[?12l[?25h[?25lt[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l L[?12l[?25h[?25lo[?12l[?25h[?25lh[?12l[?25h[?25l [?12l[?25h[?25lg[?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l N[?12l[?25h[?25la[?12l[?25h[?25lm[?12l[?25h[?25le[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l [32m:[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l [32m$[39m(B[m[?12l[?25h[?25l(B[0;1m[31m$L[39m(B[m[?12l[?25h[?25l(B[0;1m[31mO[39m(B[m[?12l[?25h[?25l(B[0;1m[31mG[39m(B[m[?12l[?25h[?25l(B[0;1m[31mN[39m(B[m[?12l[?25h[?25l(B[0;1m[31mA[39m(B[m[?12l[?25h[?25l(B[0;1m[31mM[39m(B[m[?12l[?25h[?25l(B[0;1m[31mE[39m(B[m[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[1P[?12l[?25h[?25l[A[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[1P[?12l[?25h[?25l[5d[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[32m\[39m(B[m[?12l[?25h[?25ln[?12l[?25h[?25l'[?12l[?25h[?25l [?12l[?25h[?25l[5;9H(B[0;1m[33m"\ncurrent Login Name :$LOGNAME\n"[39m(B[m[?12l[?25h[?25l[6d[?12l[?25h[?25le[?12l[?25h[?25lc[?12l[?25h[?25lh[?12l[?25h[?25l(B[0;1m[34mecho[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l -[?12l[?25h[?25l[32m-e[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l "[?12l[?25h[?25l[32m\[39m(B[m[?12l[?25h[?25ln[?12l[?25h[?25lC[?12l[?25h[?25lu[?12l[?25h[?25lr[?12l[?25h[?25lr[?12l[?25h[?25le[?12l[?25h[?25ln[?12l[?25h[?25lt[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l S[?12l[?25h[?25lh[?12l[?25h[?25le[?12l[?25h[?25ll[?12l[?25h[?25ll[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l [32m:[39m(B[m[?12l[?25h[?25l[32m$[39m(B[m[?12l[?25h[?25l(B[0;1m[31m$S[39m(B[m[?12l[?25h[?25l(B[0;1m[31mH[39m(B[m[?12l[?25h[?25l(B[0;1m[31mE[39m(B[m[?12l[?25h[?25l(B[0;1m[31mL[39m(B[m[?12l[?25h[?25l(B[0;1m[31mL[39m(B[m[?12l[?25h[?25l[32m\[39m(B[m[?12l[?25h[?25ln[?12l[?25h[?25l[6;9H(B[0;1m[33m"\nCurrent Shell :$SHELL\n"[39m(B[m[?12l[?25h[?25l[7d[?12l[?25h[?25le[?12l[?25h[?25lc[?12l[?25h[?25lh[?12l[?25h[?25l(B[0;1m[34mecho[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l -[?12l[?25h[?25l[32m-e[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l "[?12l[?25h[?25l[32m\[39m(B[m[?12l[?25h[?25ln[?12l[?25h[?25lC[?12l[?25h[?25lu[?12l[?25h[?25lr[?12l[?25h[?25lr[?12l[?25h[?25le[?12l[?25h[?25ln[?12l[?25h[?25lt[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l H[?12l[?25h[?25lo[?12l[?25h[?25lm[?12l[?25h[?25le[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l D[?12l[?25h[?25li[?12l[?25h[?25lr[?12l[?25h[?25le[?12l[?25h[?25lc[?12l[?25h[?25lt[?12l[?25h[?25lo[?12l[?25h[?25lr[?12l[?25h[?25ly[?12l[?25h[?25l[32m\[39m(B[m[?12l[?25h[?25ln[?12l[?25h[?25l[7;9H(B[0;1m[33m"\nCurrent Home Directory\n"[39m(B[m[?12l[?25h[?25l[8d[?12l[?25h[?25l[7;37H[?12l[?25h[?25l[A[?12l[?25h[?25l7[7;26r8[7dM[1;28r[7;1H[?12l[?25h[?25l[7;26r[26;1H
+[1;28r[6;36H[?12l[?25h[?25l[7d[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l(B[0;1m[33m \n"[39m(B[m[?12l[?25h[?25l(B[0;1m[33m:\n"[39m(B[m[?12l[?25h[?25l(B[0;1m[33m$\n"[39m(B[m[?12l[?25h[?25l(B[0;1m[33mH\n"[39m(B[m[?12l[?25h[?25l(B[0;1m[33mO\n"[39m(B[m[?12l[?25h[?25l(B[0;1m[33mM\n"[39m(B[m[?12l[?25h[?25l(B[0;1m[33mE\n"[39m(B[m[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[8d[?12l[?25h[?25le[?12l[?25h[?25lc[?12l[?25h[?25lh[?12l[?25h[?25l(B[0;1m[34mecho[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l -[?12l[?25h[?25l[32m-e[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l "[?12l[?25h[?25l[32m\[39m(B[m[?12l[?25h[?25ln[?12l[?25h[?25lO[?12l[?25h[?25lp[?12l[?25h[?25le[?12l[?25h[?25lr[?12l[?25h[?25la[?12l[?25h[?25lt[?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25lg[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l  S[?12l[?25h[?25ly[?12l[?25h[?25ls[?12l[?25h[?25lr[?12l[?25h[?25l [?12l[?25h[?25lt[?12l[?25h[?25le[?12l[?25h[?25lm[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l T[?12l[?25h[?25lY[?12l[?25h[?25l [?12l[?25h[?25ly[?12l[?25h[?25lp[?12l[?25h[?25le[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l [32m:[39m(B[m[?12l[?25h[?25l[32m$[39m(B[m[?12l[?25h[?25l(B[0;1m[31m$P[39m(B[m[?12l[?25h[?25l(B[0;1m[31mA[39m(B[m[?12l[?25h[?25l(B[0;1m[31mT[39m(B[m[?12l[?25h[?25l(B[0;1m[31mH[39m(B[m[?12l[?25h[?25l[32m\[39m(B[m[?12l[?25h[?25ln[?12l[?25h[?25l[8;9H(B[0;1m[33m"\nOperating  System Type :$PATH\n"[39m(B[m[?12l[?25h[?25l[8;9H"[32m\[39m(B[mnOperating  System Type [32m:(B[0;1m[31m$PATH(B[0m[32m\[39m(B[mn[K[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[32m$[39m(B[m[K[?12l[?25h[?25l [?12l[?25h[?25l[8;9H(B[0;1m[33m"\nOperating  System Type :"[39m(B[m[?12l[?25h[?25l[9d[?12l[?25h[?25lu[?12l[?25h[?25lm[?12l[?25h[?25la[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25lm[?12l[?25h[?25l [?12l[?25h[?25lb[?12l[?25h[?25l [?12l[?25h[?25lm[?12l[?25h[?25l [?12l[?25h[?25ln[?12l[?25h[?25la[?12l[?25h[?25lm[?12l[?25h[?25lr[?12l[?25h[?25l [?12l[?25h[?25le[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l -[?12l[?25h[?25lo[?12l[?25h[?25l[10d[?12l[?25h[?25le[?12l[?25h[?25lc[?12l[?25h[?25lh[?12l[?25h[?25l(B[0;1m[34mecho[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l -[?12l[?25h[?25l[32m-e[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l "[?12l[?25h[?25l[32m\[39m(B[m[?12l[?25h[?25ln[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l [?12l[?25h[?25lC[?12l[?25h[?25lu[?12l[?25h[?25lr[?12l[?25h[?25lr[?12l[?25h[?25le[?12l[?25h[?25ln[?12l[?25h[?25lt[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l P[?12l[?25h[?25la[?12l[?25h[?25lt[?12l[?25h[?25lh[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l S[?12l[?25h[?25le[?12l[?25h[?25lt[?12l[?25h[?25lt[?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25lg[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l [32m:[39m(B[m[?12l[?25h[?25l[32m$[39m(B[m[?12l[?25h[?25l(B[0;1m[31m$P[39m(B[m[?12l[?25h[?25l(B[0;1m[31mA[39m(B[m[?12l[?25h[?25l(B[0;1m[31mT[39m(B[m[?12l[?25h[?25l(B[0;1m[31mH[39m(B[m[?12l[?25h[?25l[32m\[39m(B[m[?12l[?25h[?25ln[?12l[?25h[?25l[10;9H(B[0;1m[33m"\nCurrent Path Setting :$PATH\n"[39m(B[m[?12l[?25h[?25l[11d[?12l[?25h[?25le[?12l[?25h[?25lc[?12l[?25h[?25lh[?12l[?25h[?25l(B[0;1m[34mecho[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l -[?12l[?25h[?25l[32m-e[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l "[?12l[?25h[?25l[32m\[39m(B[m[?12l[?25h[?25ln[?12l[?25h[?25lC[?12l[?25h[?25lu[?12l[?25h[?25lr[?12l[?25h[?25lr[?12l[?25h[?25le[?12l[?25h[?25ln[?12l[?25h[?25lt[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l W[?12l[?25h[?25lo[?12l[?25h[?25lr[?12l[?25h[?25lk[?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25lg[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l D[?12l[?25h[?25li[?12l[?25h[?25lr[?12l[?25h[?25le[?12l[?25h[?25lc[?12l[?25h[?25lt[?12l[?25h[?25lo[?12l[?25h[?25lr[?12l[?25h[?25ly[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l [32m:[39m(B[m[?12l[?25h[?25l[32m$[39m(B[m[?12l[?25h[?25l [?12l[?25h[?25l[11;9H(B[0;1m[33m"\nCurrent Working Directory :"[39m(B[m[?12l[?25h[?25l[12d[?12l[?25h[?25lp[?12l[?25h[?25le[?12l[?25h[?25ld[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25lw[?12l[?25h[?25ld[?12l[?25h[?25l[13d[?12l[?25h[?25le[?12l[?25h[?25lc[?12l[?25h[?25lh[?12l[?25h[?25l(B[0;1m[34mecho[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l -[?12l[?25h[?25l[32m-e[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l "[?12l[?25h[?25l[32m\[39m(B[m[?12l[?25h[?25ln[?12l[?25h[?25lN[?12l[?25h[?25lu[?12l[?25h[?25lm[?12l[?25h[?25lb[?12l[?25h[?25le[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l o[?12l[?25h[?25lf[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l u[?12l[?25h[?25ls[?12l[?25h[?25le[?12l[?25h[?25lr[?12l[?25h[?25ls[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l c[?12l[?25h[?25lu[?12l[?25h[?25lr[?12l[?25h[?25lr[?12l[?25h[?25le[?12l[?25h[?25ln[?12l[?25h[?25lt[?12l[?25h[?25ll[?12l[?25h[?25ly[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l L[?12l[?25h[?25lo[?12l[?25h[?25lg[?12l[?25h[?25lg[?12l[?25h[?25le[?12l[?25h[?25ls[?12l[?25h[?25l [?12l[?25h[?25ld[?12l[?25h[?25l[32m:[39m(B[m[?12l[?25h[?25l [?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l [32m:[39m(B[m[?12l[?25h[?25l[13;9H(B[0;1m[33m"\nNumbe of users currently Logged :"[39m(B[m[?12l[?25h[?25l[14d[?12l[?25h[?25lw[?12l[?25h[?25lh[?12l[?25h[?25lo[?12l[?25h[?25la[?12l[?25h[?25l [?12l[?25h[?25l[15d[?12l[?25h[?25l[27;16H    (B[0;7mM-D(B[m DOS Format     (B[0;7mM-A(B[m Append         (B[0;7mM-B(B[m Backup File[28;2H(B[0;7mC(B[m Cancel[16G    (B[0;7mM-M(B[m Mac Format     (B[0;7mM-P(B[m Prepend        (B[0;7m^T(B[m To Files[K[26d(B[0;7mFile Name to Write: sysconf1.sh                                                [26;1H(B[m[26;32H[?12l[?25h[?25l[K[1;78H[1;70H(B[0;7m        (B[m[26;31H(B[0;7m[ Wrote 13 lines ](B[m[27;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify[K[28;2H(B[0;7mX(B[m Exit  [16G(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Uncut Text  (B[0;7m^T(B[m To Linter[26d[15d[?12l[?25h[?25l[26d[J[28;79H[?12l[?25h[28;1H[?1049l[23;0;0t[?1l>]0;paru@paru-VirtualBox: ~/ceccs18c45/cs232/0304[01;32mparu@paru-VirtualBox[00m:[01;34m~/ceccs18c45/cs232/0304[00m$ bash sysconf1.sh
+
+Currently Logged User :paru
+
+
+current Login Name :paru
+
+
+Current Shell :/bin/bash
+
+
+Current Home Directory :/home/paru
+
+
+Operating  System Type :
+GNU/Linux
+
+Current Path Setting :/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+
+Current Working Directory :
+/home/paru/ceccs18c45/cs232/0304
+
+Numbe of users currently Logged :
+paru     :0           2020-04-03 18:44 (:0)
+]0;paru@paru-VirtualBox: ~/ceccs18c45/cs232/0304[01;32mparu@paru-VirtualBox[00m:[01;34m~/ceccs18c45/cs232/0304[00m$ nano sysconf2.sh
+[?1049h[22;0;0t[1;28r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[26;34H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 2.9.3                     sysconf2.sh                               [1;78H(B[m[27d(B[0;7m^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify[28d(B[0;7m^X(B[m Exit[28;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Uncut Text  (B[0;7m^T(B[m To Linter[26d[3d[39;49m(B[m[?12l[?25h[?25l[1;70H(B[0;7mModified(B[m[3d[36m#[39m(B[m[?12l[?25h[?25l[36m![39m(B[m[?12l[?25h[?25l[36m/[39m(B[m[?12l[?25h[?25l[36mb[39m(B[m[?12l[?25h[?25l[36mi[39m(B[m[?12l[?25h[?25l[36mn[39m(B[m[?12l[?25h[?25l[36m.[39m(B[m[?12l[?25h[?25l [?12l[?25h[?25l[36m/[39m(B[m[?12l[?25h[?25l[36mb[39m(B[m[?12l[?25h[?25l[36ma[39m(B[m[?12l[?25h[?25l[36ms[39m(B[m[?12l[?25h[?25l[36mh[39m(B[m[?12l[?25h[?25l[4d[?12l[?25h[?25le[?12l[?25h[?25lc[?12l[?25h[?25lh[?12l[?25h[?25l(B[0;1m[34mecho[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l -[?12l[?25h[?25l[32m-e[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l [32m\[39m(B[m[?12l[?25h[?25ln[?12l[?25h[?25l[32m:[39m(B[m[?12l[?25h[?25l [26d[K[4;11H[?12l[?25h[?25l [?12l[?25h[?25l[42m [49m(B[m[K[?12l[?25h[?25l "[?12l[?25h[?25l[32m\[39m(B[m[?12l[?25h[?25ln[?12l[?25h[?25lO[?12l[?25h[?25lp[?12l[?25h[?25le[?12l[?25h[?25lr[?12l[?25h[?25la[?12l[?25h[?25lt[?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25lg[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l S[?12l[?25h[?25ly[?12l[?25h[?25ls[?12l[?25h[?25lt[?12l[?25h[?25le[?12l[?25h[?25lm[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l v[?12l[?25h[?25le[?12l[?25h[?25lr[?12l[?25h[?25ls[?12l[?25h[?25li[?12l[?25h[?25lo[?12l[?25h[?25ln[?12l[?25h[?25l,[?12l[?25h[?25lr[?12l[?25h[?25le[?12l[?25h[?25ll[?12l[?25h[?25le[?12l[?25h[?25la[?12l[?25h[?25ls[?12l[?25h[?25le[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l n[?12l[?25h[?25ly[?12l[?25h[?25l [?12l[?25h[?25lu[?12l[?25h[?25lm[?12l[?25h[?25lb[?12l[?25h[?25le[?12l[?25h[?25lr[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l [32m:[39m(B[m[?12l[?25h[?25l[4;9H(B[0;1m[33m"\nOperating System version,release number :"[39m(B[m[?12l[?25h[?25l[4;9H"[32m\[39m(B[mnOperating System version,release number [32m:[39m(B[m[K[?12l[?25h[?25l[32m\[39m(B[m[?12l[?25h[?25ln[?12l[?25h[?25l[4;9H(B[0;1m[33m"\nOperating System version,release number :\n"[39m(B[m[?12l[?25h[?25l[5d[?12l[?25h[?25la[?12l[?25h[?25lt[?12l[?25h[?25l [?12l[?25h[?25l[K[?12l[?25h[?25lc[?12l[?25h[?25la[?12l[?25h[?25l(B[0;1m[34mcat[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l /[?12l[?25h[?25le[?12l[?25h[?25lt[?12l[?25h[?25lx[?12l[?25h[?25l [?12l[?25h[?25lc[?12l[?25h[?25l/[?12l[?25h[?25lo[?12l[?25h[?25ls[?12l[?25h[?25l-[?12l[?25h[?25l[32m-r[39m(B[m[?12l[?25h[?25l-re[?12l[?25h[?25ll[?12l[?25h[?25le[?12l[?25h[?25la[?12l[?25h[?25ls[?12l[?25h[?25le[?12l[?25h[?25l[6d[?12l[?25h[?25le[?12l[?25h[?25lc[?12l[?25h[?25lh[?12l[?25h[?25l(B[0;1m[34mecho[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l -[?12l[?25h[?25l[32m-e[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l "[?12l[?25h[?25l[32m\[39m(B[m[?12l[?25h[?25ln[?12l[?25h[?25lO[?12l[?25h[?25lp[?12l[?25h[?25le[?12l[?25h[?25lr[?12l[?25h[?25la[?12l[?25h[?25ly[?12l[?25h[?25l [?12l[?25h[?25lt[?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25lg[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l S[?12l[?25h[?25ly[?12l[?25h[?25ls[?12l[?25h[?25lt[?12l[?25h[?25le[?12l[?25h[?25lm[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l K[?12l[?25h[?25le[?12l[?25h[?25lr[?12l[?25h[?25ln[?12l[?25h[?25le[?12l[?25h[?25ll[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l V[?12l[?25h[?25le[?12l[?25h[?25lr[?12l[?25h[?25ls[?12l[?25h[?25li[?12l[?25h[?25lo[?12l[?25h[?25ln[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l [32m:[39m(B[m[?12l[?25h[?25l[32m\[39m(B[m[?12l[?25h[?25ln[?12l[?25h[?25l[32m:[39m(B[m[?12l[?25h[?25l [?12l[?25h[?25l[6;9H(B[0;1m[33m"\nOperating System Kernel Version :\n"[39m(B[m[?12l[?25h[?25l[7d[?12l[?25h[?25lu[?12l[?25h[?25ln[?12l[?25h[?25la[?12l[?25h[?25lm[?12l[?25h[?25le[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l -[?12l[?25h[?25l[32m-r[39m(B[m[?12l[?25h[?25l[8d[?12l[?25h[?25le[?12l[?25h[?25lc[?12l[?25h[?25lh[?12l[?25h[?25l(B[0;1m[34mecho[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l -[?12l[?25h[?25l[32m-e[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l "[?12l[?25h[?25l[32m\[39m(B[m[?12l[?25h[?25ln[?12l[?25h[?25lA[?12l[?25h[?25ll[?12l[?25h[?25ll[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l a[?12l[?25h[?25lv[?12l[?25h[?25la[?12l[?25h[?25li[?12l[?25h[?25ll[?12l[?25h[?25la[?12l[?25h[?25lb[?12l[?25h[?25ll[?12l[?25h[?25le[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l s[?12l[?25h[?25lh[?12l[?25h[?25le[?12l[?25h[?25ll[?12l[?25h[?25ll[?12l[?25h[?25ls[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l [32m:[39m(B[m[?12l[?25h[?25l[32m\[39m(B[m[?12l[?25h[?25ln[?12l[?25h[?25l[8;9H(B[0;1m[33m"\nAll available shells :\n"[39m(B[m[?12l[?25h[?25l[9d[?12l[?25h[?25lc[?12l[?25h[?25la[?12l[?25h[?25l(B[0;1m[34mcat[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l /[?12l[?25h[?25le[?12l[?25h[?25lt[?12l[?25h[?25lc[?12l[?25h[?25l/[?12l[?25h[?25ls[?12l[?25h[?25lh[?12l[?25h[?25le[?12l[?25h[?25ll[?12l[?25h[?25ll[?12l[?25h[?25ls[?12l[?25h[?25l[10d[?12l[?25h[?25le[?12l[?25h[?25lc[?12l[?25h[?25lh[?12l[?25h[?25l(B[0;1m[34mecho[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l -[?12l[?25h[?25l[32m-e[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l "[?12l[?25h[?25l[32m\[39m(B[m[?12l[?25h[?25ln[?12l[?25h[?25lC[?12l[?25h[?25lP[?12l[?25h[?25lU[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l I[?12l[?25h[?25ln[?12l[?25h[?25lf[?12l[?25h[?25lp[?12l[?25h[?25lo[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25lo[?12l[?25h[?25lr[?12l[?25h[?25lm[?12l[?25h[?25la[?12l[?25h[?25lt[?12l[?25h[?25li[?12l[?25h[?25lo[?12l[?25h[?25ln[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l [32m:[39m(B[m[?12l[?25h[?25l[32m\[39m(B[m[?12l[?25h[?25ln[?12l[?25h[?25l[10;9H(B[0;1m[33m"\nCPU Information :\n"[39m(B[m[?12l[?25h[?25l[11d[?12l[?25h[?25lc[?12l[?25h[?25la[?12l[?25h[?25l(B[0;1m[34mcat[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l /[?12l[?25h[?25lp[?12l[?25h[?25lr[?12l[?25h[?25lo[?12l[?25h[?25lc[?12l[?25h[?25l/[?12l[?25h[?25lc[?12l[?25h[?25l(B[0;1m[34mcp[39m(B[m[?12l[?25h[?25lcpu[?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25lf[?12l[?25h[?25lo[?12l[?25h[?25l[12d[?12l[?25h[?25le[?12l[?25h[?25lc[?12l[?25h[?25lh[?12l[?25h[?25l(B[0;1m[34mecho[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l -[?12l[?25h[?25l[32m-e[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l "[?12l[?25h[?25l[32m\[39m(B[m[?12l[?25h[?25ln[?12l[?25h[?25lM[?12l[?25h[?25le[?12l[?25h[?25lm[?12l[?25h[?25lo[?12l[?25h[?25lr[?12l[?25h[?25lu[?12l[?25h[?25l [?12l[?25h[?25ly[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l I[?12l[?25h[?25ln[?12l[?25h[?25lf[?12l[?25h[?25l [?12l[?25h[?25lf[?12l[?25h[?25lo[?12l[?25h[?25lr[?12l[?25h[?25lm[?12l[?25h[?25la[?12l[?25h[?25lt[?12l[?25h[?25li[?12l[?25h[?25lo[?12l[?25h[?25ln[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l [32m:[39m(B[m[?12l[?25h[?25l[32m\[39m(B[m[?12l[?25h[?25ln[?12l[?25h[?25l[12;9H(B[0;1m[33m"\nMemory Information :\n"[39m(B[m[?12l[?25h[?25l[13d[?12l[?25h[?25lc[?12l[?25h[?25la[?12l[?25h[?25l(B[0;1m[34mcat[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l /[?12l[?25h[?25lp[?12l[?25h[?25lr[?12l[?25h[?25lo[?12l[?25h[?25lc[?12l[?25h[?25l/[?12l[?25h[?25lm[?12l[?25h[?25le[?12l[?25h[?25lm[?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25lf[?12l[?25h[?25lo[?12l[?25h[?25l[14d[?12l[?25h[?25le[?12l[?25h[?25lc[?12l[?25h[?25lh[?12l[?25h[?25l(B[0;1m[34mecho[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l -[?12l[?25h[?25l[32m-e[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l "[?12l[?25h[?25l[32m\[39m(B[m[?12l[?25h[?25ln[?12l[?25h[?25lH[?12l[?25h[?25la[?12l[?25h[?25lr[?12l[?25h[?25ld[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l d[?12l[?25h[?25li[?12l[?25h[?25ls[?12l[?25h[?25lk[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l I[?12l[?25h[?25ln[?12l[?25h[?25lf[?12l[?25h[?25lo[?12l[?25h[?25lr[?12l[?25h[?25lm[?12l[?25h[?25la[?12l[?25h[?25ly[?12l[?25h[?25l [?12l[?25h[?25lt[?12l[?25h[?25li[?12l[?25h[?25lo[?12l[?25h[?25ln[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l [32m:[39m(B[m[?12l[?25h[?25l[14;9H(B[0;1m[33m"\nHard disk Information :"[39m(B[m[?12l[?25h[?25l[14;9H"[32m\[39m(B[mnHard disk Information [32m:[39m(B[m[K[?12l[?25h[?25l[32m\[39m(B[m[?12l[?25h[?25ln[?12l[?25h[?25l[14;9H(B[0;1m[33m"\nHard disk Information :\n"[39m(B[m[?12l[?25h[?25l[15d[?12l[?25h[?25ld[?12l[?25h[?25lf[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l -[?12l[?25h[?25lh[?12l[?25h[?25l[16d[?12l[?25h[?25le[?12l[?25h[?25lc[?12l[?25h[?25lh[?12l[?25h[?25l(B[0;1m[34mecho[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l -[?12l[?25h[?25l[32m-e[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l "[?12l[?25h[?25l[32m\[39m(B[m[?12l[?25h[?25ln[?12l[?25h[?25lF[?12l[?25h[?25li[?12l[?25h[?25ll[?12l[?25h[?25le[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l S[?12l[?25h[?25ly[?12l[?25h[?25ls[?12l[?25h[?25lt[?12l[?25h[?25le[?12l[?25h[?25lm[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l [32m([39m(B[m[?12l[?25h[?25lM[?12l[?25h[?25lo[?12l[?25h[?25lu[?12l[?25h[?25ln[?12l[?25h[?25lt[?12l[?25h[?25le[?12l[?25h[?25ld[?12l[?25h[?25l[32m)[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l [32m:[39m(B[m[?12l[?25h[?25l[32m\[39m(B[m[?12l[?25h[?25ln[?12l[?25h[?25l[16;9H(B[0;1m[33m"\nFile System (Mounted) :\n"[39m(B[m[?12l[?25h[?25l[17d[?12l[?25h[?25lm[?12l[?25h[?25lo[?12l[?25h[?25lu[?12l[?25h[?25ln[?12l[?25h[?25lt[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l [32m|[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l c[?12l[?25h[?25lo[?12l[?25h[?25ll[?12l[?25h[?25lu[?12l[?25h[?25lm[?12l[?25h[?25ln[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l -[?12l[?25h[?25lt[?12l[?25h[?25l[18d[?12l[?25h[?25l[27;16H    (B[0;7mM-D(B[m DOS Format     (B[0;7mM-A(B[m Append         (B[0;7mM-B(B[m Backup File[28;2H(B[0;7mC(B[m Cancel[16G    (B[0;7mM-M(B[m Mac Format     (B[0;7mM-P(B[m Prepend        (B[0;7m^T(B[m To Files[K[26d(B[0;7mFile Name to Write: sysconf2.sh                                                [26;1H(B[m[26;32H[?12l[?25h[?25l[K[1;78H[1;70H(B[0;7m        (B[m[26;31H(B[0;7m[ Wrote 16 lines ](B[m[27;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify[K[28;2H(B[0;7mX(B[m Exit  [16G(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Uncut Text  (B[0;7m^T(B[m To Linter[26d[18d[?12l[?25h[?25l[26d[J[28;79H[?12l[?25h[28;1H[?1049l[23;0;0t[?1l>]0;paru@paru-VirtualBox: ~/ceccs18c45/cs232/0304[01;32mparu@paru-VirtualBox[00m:[01;34m~/ceccs18c45/cs232/0304[00m$ bash sysconf2.sh
+
+Operating System version,release number :
+
+NAME="Ubuntu"
+VERSION="18.04.4 LTS (Bionic Beaver)"
+ID=ubuntu
+ID_LIKE=debian
+PRETTY_NAME="Ubuntu 18.04.4 LTS"
+VERSION_ID="18.04"
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+VERSION_CODENAME=bionic
+UBUNTU_CODENAME=bionic
+
+Operating System Kernel Version :
+
+5.3.0-28-generic
+
+All available shells :
+
+# /etc/shells: valid login shells
+/bin/sh
+/bin/bash
+/bin/rbash
+/bin/dash
+
+CPU Information :
+
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 42
+model name	: Intel(R) Core(TM) i7-2670QM CPU @ 2.20GHz
+stepping	: 7
+cpu MHz		: 2195.012
+cache size	: 6144 KB
+physical id	: 0
+siblings	: 1
+core id		: 0
+cpu cores	: 1
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid tsc_known_freq pni pclmulqdq monitor ssse3 cx16 sse4_1 sse4_2 x2apic popcnt aes xsave avx hypervisor lahf_lm pti flush_l1d
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit
+bogomips	: 4390.02
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+
+Memory Information :
+
+MemTotal:        1004820 kB
+MemFree:           64096 kB
+MemAvailable:     192452 kB
+Buffers:           15112 kB
+Cached:           240792 kB
+SwapCached:        19988 kB
+Active:           428040 kB
+Inactive:         358204 kB
+Active(anon):     267292 kB
+Inactive(anon):   274884 kB
+Active(file):     160748 kB
+Inactive(file):    83320 kB
+Unevictable:          16 kB
+Mlocked:              16 kB
+SwapTotal:       2040860 kB
+SwapFree:        1558300 kB
+Dirty:                36 kB
+Writeback:             0 kB
+AnonPages:        522856 kB
+Mapped:           118900 kB
+Shmem:             11828 kB
+KReclaimable:      23688 kB
+Slab:              58260 kB
+SReclaimable:      23688 kB
+SUnreclaim:        34572 kB
+KernelStack:        8504 kB
+PageTables:        42456 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:     2543268 kB
+Committed_AS:    5038220 kB
+VmallocTotal:   34359738367 kB
+VmallocUsed:       33636 kB
+VmallocChunk:          0 kB
+Percpu:              324 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:         0 kB
+ShmemHugePages:        0 kB
+ShmemPmdMapped:        0 kB
+CmaTotal:              0 kB
+CmaFree:               0 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+Hugetlb:               0 kB
+DirectMap4k:      116672 kB
+DirectMap2M:      931840 kB
+
+Hard disk Information :
+
+Filesystem      Size  Used Avail Use% Mounted on
+udev            467M     0  467M   0% /dev
+tmpfs            99M  1.6M   97M   2% /run
+/dev/sda1        42G   28G   12G  71% /
+tmpfs           491M     0  491M   0% /dev/shm
+tmpfs           5.0M  4.0K  5.0M   1% /run/lock
+tmpfs           491M     0  491M   0% /sys/fs/cgroup
+/dev/loop1      1.0M  1.0M     0 100% /snap/gnome-logs/81
+/dev/loop2       15M   15M     0 100% /snap/gnome-characters/399
+/dev/loop0      4.4M  4.4M     0 100% /snap/gnome-calculator/704
+/dev/loop3      3.8M  3.8M     0 100% /snap/gnome-system-monitor/127
+/dev/loop4       92M   92M     0 100% /snap/core/8689
+/dev/loop5       55M   55M     0 100% /snap/core18/1668
+/dev/loop6       94M   94M     0 100% /snap/core/8935
+/dev/loop7       45M   45M     0 100% /snap/gtk-common-themes/1440
+/dev/loop8      1.0M  1.0M     0 100% /snap/gnome-logs/93
+/dev/loop9      4.3M  4.3M     0 100% /snap/gnome-calculator/544
+/dev/loop10     161M  161M     0 100% /snap/gnome-3-28-1804/116
+/dev/loop11     3.8M  3.8M     0 100% /snap/gnome-system-monitor/135
+/dev/loop12      49M   49M     0 100% /snap/gtk-common-themes/1474
+/dev/loop13      55M   55M     0 100% /snap/core18/1705
+/dev/loop14      15M   15M     0 100% /snap/gnome-characters/495
+tmpfs            99M   28K   99M   1% /run/user/121
+tmpfs            99M   28K   99M   1% /run/user/1000
+
+File System (Mounted) :
+
+sysfs                                               on  /sys                             type  sysfs            (rw,nosuid,nodev,noexec,relatime)
+proc                                                on  /proc                            type  proc             (rw,nosuid,nodev,noexec,relatime)
+udev                                                on  /dev                             type  devtmpfs         (rw,nosuid,relatime,size=478108k,nr_inodes=119527,mode=755)
+devpts                                              on  /dev/pts                         type  devpts           (rw,nosuid,noexec,relatime,gid=5,mode=620,ptmxmode=000)
+tmpfs                                               on  /run                             type  tmpfs            (rw,nosuid,noexec,relatime,size=100484k,mode=755)
+/dev/sda1                                           on  /                                type  ext4             (rw,relatime,errors=remount-ro)
+securityfs                                          on  /sys/kernel/security             type  securityfs       (rw,nosuid,nodev,noexec,relatime)
+tmpfs                                               on  /dev/shm                         type  tmpfs            (rw,nosuid,nodev)
+tmpfs                                               on  /run/lock                        type  tmpfs            (rw,nosuid,nodev,noexec,relatime,size=5120k)
+tmpfs                                               on  /sys/fs/cgroup                   type  tmpfs            (ro,nosuid,nodev,noexec,mode=755)
+cgroup                                              on  /sys/fs/cgroup/unified           type  cgroup2          (rw,nosuid,nodev,noexec,relatime,nsdelegate)
+cgroup                                              on  /sys/fs/cgroup/systemd           type  cgroup           (rw,nosuid,nodev,noexec,relatime,xattr,name=systemd)
+pstore                                              on  /sys/fs/pstore                   type  pstore           (rw,nosuid,nodev,noexec,relatime)
+cgroup                                              on  /sys/fs/cgroup/cpu,cpuacct       type  cgroup           (rw,nosuid,nodev,noexec,relatime,cpu,cpuacct)
+cgroup                                              on  /sys/fs/cgroup/devices           type  cgroup           (rw,nosuid,nodev,noexec,relatime,devices)
+cgroup                                              on  /sys/fs/cgroup/pids              type  cgroup           (rw,nosuid,nodev,noexec,relatime,pids)
+cgroup                                              on  /sys/fs/cgroup/freezer           type  cgroup           (rw,nosuid,nodev,noexec,relatime,freezer)
+cgroup                                              on  /sys/fs/cgroup/net_cls,net_prio  type  cgroup           (rw,nosuid,nodev,noexec,relatime,net_cls,net_prio)
+cgroup                                              on  /sys/fs/cgroup/hugetlb           type  cgroup           (rw,nosuid,nodev,noexec,relatime,hugetlb)
+cgroup                                              on  /sys/fs/cgroup/cpuset            type  cgroup           (rw,nosuid,nodev,noexec,relatime,cpuset)
+cgroup                                              on  /sys/fs/cgroup/blkio             type  cgroup           (rw,nosuid,nodev,noexec,relatime,blkio)
+cgroup                                              on  /sys/fs/cgroup/rdma              type  cgroup           (rw,nosuid,nodev,noexec,relatime,rdma)
+cgroup                                              on  /sys/fs/cgroup/memory            type  cgroup           (rw,nosuid,nodev,noexec,relatime,memory)
+cgroup                                              on  /sys/fs/cgroup/perf_event        type  cgroup           (rw,nosuid,nodev,noexec,relatime,perf_event)
+systemd-1                                           on  /proc/sys/fs/binfmt_misc         type  autofs           (rw,relatime,fd=26,pgrp=1,timeout=0,minproto=5,maxproto=5,direct,pipe_ino=13024)
+hugetlbfs                                           on  /dev/hugepages                   type  hugetlbfs        (rw,relatime,pagesize=2M)
+debugfs                                             on  /sys/kernel/debug                type  debugfs          (rw,relatime)
+mqueue                                              on  /dev/mqueue                      type  mqueue           (rw,relatime)
+fusectl                                             on  /sys/fs/fuse/connections         type  fusectl          (rw,relatime)
+configfs                                            on  /sys/kernel/config               type  configfs         (rw,relatime)
+/var/lib/snapd/snaps/gnome-logs_81.snap             on  /snap/gnome-logs/81              type  squashfs         (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/gnome-characters_399.snap      on  /snap/gnome-characters/399       type  squashfs         (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/gnome-calculator_704.snap      on  /snap/gnome-calculator/704       type  squashfs         (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/gnome-system-monitor_127.snap  on  /snap/gnome-system-monitor/127   type  squashfs         (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/core_8689.snap                 on  /snap/core/8689                  type  squashfs         (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/core18_1668.snap               on  /snap/core18/1668                type  squashfs         (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/core_8935.snap                 on  /snap/core/8935                  type  squashfs         (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/gtk-common-themes_1440.snap    on  /snap/gtk-common-themes/1440     type  squashfs         (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/gnome-logs_93.snap             on  /snap/gnome-logs/93              type  squashfs         (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/gnome-calculator_544.snap      on  /snap/gnome-calculator/544       type  squashfs         (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/gnome-3-28-1804_116.snap       on  /snap/gnome-3-28-1804/116        type  squashfs         (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/gnome-system-monitor_135.snap  on  /snap/gnome-system-monitor/135   type  squashfs         (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/gtk-common-themes_1474.snap    on  /snap/gtk-common-themes/1474     type  squashfs         (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/core18_1705.snap               on  /snap/core18/1705                type  squashfs         (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/gnome-characters_495.snap      on  /snap/gnome-characters/495       type  squashfs         (ro,nodev,relatime,x-gdu.hide)
+tmpfs                                               on  /run/user/121                    type  tmpfs            (rw,nosuid,nodev,relatime,size=100480k,mode=700,uid=121,gid=125)
+tmpfs                                               on  /run/user/1000                   type  tmpfs            (rw,nosuid,nodev,relatime,size=100480k,mode=700,uid=1000,gid=1000)
+gvfsd-fuse                                          on  /run/user/1000/gvfs              type  fuse.gvfsd-fuse  (rw,nosuid,nodev,relatime,user_id=1000,group_id=1000)
+]0;paru@paru-VirtualBox: ~/ceccs18c45/cs232/0304[01;32mparu@paru-VirtualBox[00m:[01;34m~/ceccs18c45/cs232/0304[00m$ exit
+exit
+
+Script done on 2020-04-03 19:57:06+0530
